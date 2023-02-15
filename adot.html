@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header with slide in back page, logo and navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container flex logonav">
+                <div class="logo"><img src="assets/img/empresa/LOGO.svg" alt="adotpet"></div>
+                <ul class="nav-menu">
+                    <li><a class="scroll" href="index.html">Home</a></li>
+                    <li><a class="scroll" href="index.html#institutional">institucional</a></li>
+                    <li><a class="scroll" href="index.html#adopt-me">Me adote</a></li>
+                    <li><a class="btmodal">Filiar-se</a></li>
+                    <li><a class="scroll" href="index.html#contactarea">Contato</a></li>
+                    <div class="closeToggle"></div>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="slidebox">
+        <div data-slide="slide" class="slide">
+            <div class="slide-items">
+                <img src="assets/img/slide/img1.webp" alt="Img 1">
+                <img src="assets/img/slide/img2.webp" alt="Img 2">
+                <img src="assets/img/slide/img3.webp" alt="Img 3">
+                <img src="assets/img/slide/img4.webp" alt="Img 4">
+            </div>
+            <nav class="slide-nav">
+                <div class="slide-thumb"></div>
+                <button class="slide-prev">Anterior</button>
+                <button class="slide-next">Próximo</button>
+            </nav>
+        </div>
+    </div>
+    <main>
+        <div class="wrapper">
+            <!-- filter Items -->
+            <nav>
+                <div class="items">
+                    <span class="item active" data-name="all">Todos</span>
+                    <span class="item" data-name="dog">Cão</span>
+                    <span class="item" data-name="cat">Gato</span>
+                    <span class="item" data-name="rabbit">Coelho</span>
+                    <span class="item" data-name="gpig">Porquinho da India</span>
+
+                </div>
+
+            </nav>
+            <!-- filter Images -->
+            <div class="gallery">
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery01.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery02.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery03.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery04.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery05.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery06.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery07.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery08.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery09.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery10.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery11.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery12.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery13.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery14.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery15.webp" alt=""></span></div>
+                <div class="image" data-name="dog"><span><img src="assets/img/caes/dog-gallery/dog-gallery16.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery01.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery02.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery03.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery04.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery05.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery06.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery07.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery08.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery09.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery10.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery11.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery12.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery13.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery14.webp" alt=""></span></div>
+                <div class="image" data-name="cat"><span><img src="assets/img/gatos/cat-gallery/cat-gallery15.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery01.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery02.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery03.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery04.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery05.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery06.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery07.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery08.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery09.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery10.webp" alt=""></span></div>
+                <div class="image" data-name="rabbit"><span><img src="assets/img/coelhos/rabbit-gallery/rabbit-gallery11.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery01.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery02.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery03.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery04.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery05.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery06.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery07.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery08.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery09.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery10.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery11.webp" alt=""></span></div>
+                <div class="image" data-name="gpig"><span><img src="assets/img/porco_da_india/guinea-pig-gallery/guinea-pig-gallery12.webp" alt=""></span></div>
+            </div>
+        </div>
+        <!-- fullscreen img preview box -->
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image Category: <p></p></span>
+                <span class="icon fas fa-times">X</span>
+            </div>
+            <div class="image-box"><img src="" alt=""></div>
+        </div>
+        <div class="shadow"></div>
+    </main>
+
+
+    <!-- Filiated area to show a modal with a formulary  -->
+    <div id="join">
+        <div class="cover"></div>
+        <div class="modal-container">
+            <a class="btclose">X</a>
+            <form action="" class="form-modal">
+                <div class="header-modal">
+                    <h1 id="title-modal">Filiar-se</h1>
+                    <p id="subtitle">Complete suas informações</p><br><br>
+                </div>
+
+                <form class="main-modal">
+                    <section class="group">
+                        <div class="area">
+                            <input class="efeitos-modal" type="text" name="name" placeholder="Nome" required>
+                        </div>
+                        <div class="area">
+                            <input class="efeitos-modal" type="text" name="name" placeholder="Sobrenome" required>
+                        </div>
+                        <div class="area">
+                            <input class="efeitos-modal" type="email" name="email" placeholder="E-mail" required>
+                        </div>
+                    </section>
+
+                    <div class="area">
+                        <label><strong>Reside nas proximidades?</strong></label>
+                        <label>
+                            <input type="radio" name="reside" value="proximity" checked>Sim
+                        </label>
+                        <label>
+                            <input type="radio" name="reside" value="proximity">Não
+                        </label>
+                    </div>
+                    <div class="area">
+                        <label for="age"><strong>Sua idade</strong></label>
+                        <select id="age" class="efeitos-modal">
+                            <option selected disabled value="">Selecione</option>
+                            <option>18 a 29</option>
+                            <option>30 a 39</option>
+                            <option>40 a 49</option>
+                            <option>50 a 59</option>
+                            <option>Nenhuma citada</option>
+                        </select>
+                    </div>
+                    <section class="group">
+                        <div class="experience area">
+                            <label><strong>Tem experiência com animais?</strong></label>
+                            <label>
+                                <input type="radio" name="xp" value="xp-work" checked>Sim
+                            </label>
+                            <label>
+                                <input type="radio" name="xp" value="xp-work">Não
+                            </label>
+                        </div>
+                        <div class="area">
+                            <label for="xp"><strong>Sua experiência</strong></label>
+                            <select class="efeitos-modal">
+                                <option selected disabled value="">Selecione</option>
+                                <option>Nenhuma</option>
+                                <option>Já tive pet</option>
+                                <option>Tenho pet</option>
+                                <option>Adoro pets mas não tenho</option>
+                                <option>Já fui voluntário</option>
+                            </select>
+                        </div>
+                    </section>
+                    <section class="area">
+                        <div id="check">
+                            <label for=""><strong>Como gostaria de ajudar?</strong></label><br><br>
+                            <input type="checkbox" id="help1" name="help1" value="Food-donation">
+                            <label for="help1">Doação de alimentos</label>
+                            <input type="checkbox" id="help2" name="help2" value="Medicines-donation">
+                            <label for="help2">Doação de remedios</label>
+                            <input type="checkbox" id="help3" name="help3" value="Cleaning-material">
+                            <label for="help3">Material de limpeza</label>
+                            <input type="checkbox" id="help4" name="help4" value="Cash-donation">
+                            <label for="help4">Doação em dinheiro</label>
+                            <input type="checkbox" id="help5" name="help5" value="Your-time">
+                            <label for="help5">Um pouco de seu tempo</label>
+                        </div>
+                    </section>
+                    <div class="area">
+                        <label for=""><strong>Conte um pouco da sua experiência:</strong></label>
+                        <textarea class="efeitos-modal" row="7" style="width: 26em; height: 5em" id="experience" name="experience"></textarea>
+                    </div>
+                    <button class="button efeitos-modal" type="submit" onsubmit="">Concluído</button>
+                </form>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer have the map links to all site and informations -->
+    <div class="icons">
+        <div><img src="assets/img/empresa/cãoico.svg" alt=""></div>
+        <div><img src="assets/img/empresa/gatoico.svg" alt=""></div>
+        <div><img src="assets/img/empresa/coelhoico.svg" alt=""></div>
+        <div><img src="assets/img/empresa/porquinhodaindiaico.svg" alt=""></div>
+    </div>
+    <footer class="footer1">
+        <div class="container footerlinks sm">
+            <div class="map">
+                <ul>
+                    <h4>Mapa do site</h4>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#institutional">institucional</a></li>
+                    <li><a href="index.html#adopt-me">Me adote</a></li>
+                    <li><a class="btmodal2">Filiar-se</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+            </div>
+            <div class="info">
+                <ul>
+                    <h4>Sites parceiros</h4>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#institucional">institucional</a></li>
+                    <li><a href="#meadote">Me adote</a></li>
+                    <li><a class="btmodal2">Filiar-se</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="utils">
+                <ul>
+                    <h4>Links úteis</h4>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#institucional">institucional</a></li>
+                    <li><a href="#meadote">Me adote</a></li>
+                    <li><a class="btmodal2">Filiar-se</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/slide.js"></script>
+
+</body>
+
+</html>

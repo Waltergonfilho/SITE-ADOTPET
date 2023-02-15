@@ -1,0 +1,122 @@
+.active-modal {
+  display: block !important;
+}
+
+#join {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 2000;
+  padding: 15px 15px;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+
+.modal-container {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  background-color: #fefae0;
+  margin: 25px auto;
+  position: relative;
+  border-radius: 15px;
+  align-self: center;
+  z-index: 10;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.btclose {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #bc6b25;
+  color: #fefae0;
+  text-align: center;
+  padding-top: 13px;
+  border: 3px solid #fefae0;
+}
+
+.btmodal {
+  cursor: pointer;
+}
+
+.btmodal2 {
+  cursor: pointer;
+}
+
+
+#title-modal {
+  font-size: 35px;
+  padding: 0;
+}
+
+#subtitle {
+  font-size: 25px;
+}
+
+#check {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.area {
+  padding: 5px 15px;
+  font-size: 16px;
+}
+
+.experience {
+  padding: 15px 15px;
+}
+
+.header-modal {
+  padding: 15px 15px;
+}
+
+div .button {
+  margin-left: 30px;
+  font-family: AmaranthB;
+  background-color: #f9e041;
+  color: #bc6b25;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.efeitos-modal {
+  border-radius: 10px;
+  border: 2px solid #bc6b25;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.area label {
+  color: #bc6b25;
+}
+
+.efeitos-modal option {
+  color: #bc6b25;
+}
+
+.area input[type="text"],
+.area input[type="email"]{
+  width: 100%;
+}
+.area textarea {
+  width: 100%;
+  height: 90px;
+}

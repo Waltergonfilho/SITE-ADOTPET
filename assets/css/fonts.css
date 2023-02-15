@@ -1,0 +1,34 @@
+@font-face {
+  font-family: AlataR;
+  src: local(AlataR) url(../fonts/Alata-Regular.ttf);
+}
+@font-face {
+  font-family: AmaranthB;
+  src: local(Amaranth-Bold), url(../fonts/Amaranth-Bold.ttf);
+}
+@font-face {
+  font-family: Concertone;
+  src: local(Concert-One), url(../fonts/ConcertOne-Regular.ttf);
+}
+@font-face {
+  font-family: Fredokaone;
+  src: local(FredokaOne-Regular), url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+  font-family: Yantrablack;
+  src: local(Yantramanav-Black), url(../fonts/Yantramanav-Black.ttf);
+}
+
+@font-face {
+  font-family: Yantrabold;
+  src: local(Yantramanav-Bold), url(../fonts/Yantramanav-Bold.ttf);
+}
+
+@font-face {
+  font-family: Yantraregular;
+  src: local(Yantramanav-Regular), url(../fonts/Yantramanav-Regular.ttf);
+}
+@font-face {
+  font-family: Yantralight;
+  src: local(Yantramanav-Light), url(../fonts/Yantramanav-Light.ttf);
+}
